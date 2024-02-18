@@ -1,0 +1,178 @@
+/* Additional styles for login page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 20px;
+}
+
+header {
+  background: linear-gradient(to right, #333, #1a1a1a, #333);
+  position: fixed;
+  top: 0;
+  height: 160px;
+  width: 100%;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+header h1 span {
+  color: #007bff;
+}
+
+.header-options {
+  text-align: center;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border-radius: 20px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.search-bar {
+  display: inline-block;
+}
+
+.search-bar input[type="text"] {
+  padding: 8px;
+  width: 200px;
+}
+
+.main {
+  margin-top: 20px;
+}
+
+.cards {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  background-color: #333;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.card:hover {
+  background-color: #444;
+}
+
+.card-info {
+  flex-grow: 1;
+}
+
+.card-info h2 {
+  margin-top: 0;
+}
+
+.card-info p {
+  margin: 5px 0;
+}
+
+.card-actions {
+  text-align: right;
+}
+
+.action-btn {
+  color: #007bff;
+  width: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.action-btn:hover {
+  transform: scale(1.2);
+}
+
+footer {
+  /* background-color: #333; */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination button {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: color 0.3s ease;
+}
+
+.pagination button:hover {
+  color: #007bff;
+}
+
+.btn-special {
+  background-color: #ff5722; /* Change to your desired color */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border-radius: 20px;
+}
+
+.btn-special:hover {
+  background-color: #f44336; /* Change to your desired hover color */
+}
+
+/* Additional styles for sort-by dropdown */
+.sort-by select {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Text color */
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.sort-by select:hover {
+  background-color: #444; /* Darker background color on hover */
+}
+

@@ -1,0 +1,57 @@
+/* Additional styles for login page */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Updated font */
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e1e; /* Dark background color */
+  color: #ddd; /* Lighter text color */
+}
+
+.login-container {
+  background: #333; /* Darker background for login container */
+  padding: 50px;
+  border-radius: 10px; /* Rounder corners */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  width: 400px;
+  margin:  50px auto; /* Centering the container */
+}
+
+h2 {
+  text-align: center; /* Centering the header */
+  margin-bottom: 30px; /* Adjust space below header */
+  color: #fff; /* Header text color */
+}
+
+.form-group {
+  margin-bottom: 20px; /* Adjust space between form groups */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #bbb; /* Label text color */
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #555; /* Darker border */
+  border-radius: 5px;
+  background-color: #444; /* Darker background */
+  color: #ddd; /* Text color */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Customer Management System</title>
+<link rel="stylesheet" href="styles.css">
+<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+    <header>
+        <div class="container">
+          <h1><span>Customer</span> Management System</h1>
+          <div class="header-options">
+            <button id="add-customer-btn" class="btn">Add Customer</button>
+            <div class="search-bar">
+              <input type="text" id="search-bar" placeholder="Search...">
+              <button class="btn" id="srch">Search</button>
+            </div>
+            <button class="btn-special" id="sync">SYNC</button>
+            <button class="btn-special" id="delAll">DELETE ALL</button>
+            <div class="sort-by" id="sort-by">
+              <select>
+                <option value="" disabled selected>Sort by</option>
+                <option value="first_name">First Name</option>
+                <option value="last_name">Last Name</option>
+                <option value="street">Street</option>
+                <option value="email">Email</option>
+
+        
+              </select>
+            </div>
+          </div>
+        </div>
+      </header>
+  
+  <main>
+    <div class="container">
+
+      <div class="cards" id="cards">
+      
+      </div>
+      
+    </div>
+  </main>
+  
+  <footer>
+    <button id="prv" class="btn" >Prev</button>
+    <button  id="nxt" class="btn" >Next</button>
+  </footer>
+
+  <div id="popup-form" class="popup-form">
+    
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
+
